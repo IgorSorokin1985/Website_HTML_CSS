@@ -1,0 +1,123 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+    
+    .header {
+        padding-top: 32px;
+        &_input {
+            display: none;
+        }
+    }
+    .menu {
+        display: none;
+    }
+    
+    .logo_img {
+        width: 99px;
+    }
+
+    .menu_mob {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .top_content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .heading_first {
+        font-size: 48px;
+        text-align: center;
+    }
+
+    .our_mebel {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .menu_link {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .heading {
+        font-size: 24px;
+    }
+    .for {
+        grid-template-columns: repeat(4, 1fr);
+
+        &_item {
+            grid-column: 1 / -1;
+            font-size: 28px;
+        }
+    }
+
+    .footer_content {
+        justify-content: center;
+        gap: 34px;
+    }
+    .footer_info {
+        gap: 100px;
+    }
+
+    .cart {
+        &_name {
+            font-size: 18px;
+        }
+        &_text {
+            font-size: 12px;
+        }
+        &_price {
+            font-size: 12px;
+        }
+        &_img {
+            display: none;
+        }
+        &_button {
+            width: 166px;
+            height: 37px;
+            font-size: 12px;
+            text-align: center;
+            padding: none;
+
+            &_form{
+                font-size: 16px;
+                width: 290px;
+                height: 41px;
+                margin-bottom: 148px;
+            }
+        }
+
+
+
+        &_form {
+            grid-column: span 8;
+        }
+    }
+    .product {
+        &_name {
+            font-size: 18px;
+        }
+        &_price {
+            font-size: 18px;
+        }
+        &_price_sale {
+            font-size: 18px;
+        }
+        &_box {
+            padding-top: 48px;
+            &_catalog {
+                padding-top: 0;
+            }
+        }
+    }
+    .catalog_nav {
+        gap: 16px;
+    }
+    
+}
